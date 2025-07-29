@@ -13,7 +13,7 @@
                     <field name="geo_longitude" readonly="1"/>
                 <field name="create_date" />
                 <field name="write_date"/>
-                <field name="geo_city" readonly="" />
+                <field name="geo_city" readonly="1" />
                 <field name="geo_region" readonly="1"/>
                 <field name="geo_country" readonly="1"/>
             </group>
