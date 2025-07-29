@@ -20,7 +20,8 @@ class AccountMove(models.Model):
         # Get IP address from request
         ip = None
         # Default location
-        geo_data = {'city': '', 'region': '', 'country': ''}
+        geo_data = {'city': '', 'region': '', 'country': '',
+            'latitude': 0.0, 'longitude': 0.0 }
 
 
         if request and request.httprequest:
