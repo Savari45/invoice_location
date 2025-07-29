@@ -9,12 +9,13 @@
         <xpath expr="//field[@name='narration']" position="after">
             <group string="Invoice Location Info" >
 
-                    <field name="geo_latitude"/>
-                    <field name="geo_longitude"/>
-                <field name="create_date"/>
-                <field name="geo_city"/>
-                <field name="geo_region"/>
-                <field name="geo_country"/>
+                    <field name="geo_latitude" readonly="1"/>
+                    <field name="geo_longitude" readonly="1"/>
+                <field name="create_date" />
+                <field name="write_date"/>
+                <field name="geo_city" readonly="" />
+                <field name="geo_region" readonly="1"/>
+                <field name="geo_country" readonly="1"/>
             </group>
         </xpath>
     </field>
